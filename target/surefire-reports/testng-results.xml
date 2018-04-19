@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="20" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="586757" started-at="2018-04-18T15:18:46Z" finished-at="2018-04-18T15:28:33Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="586757" started-at="2018-04-18T15:18:46Z" finished-at="2018-04-18T15:28:33Z">
+      <class name="com.trc.qa.testcases.PPUpcomingPatientTest">
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="21012" started-at="2018-04-18T15:20:29Z" finished-at="2018-04-18T15:20:50Z">
+        </test-method>
+        <test-method status="PASS" signature="UpcomingPatient()" name="UpcomingPatient" duration-ms="1603" started-at="2018-04-18T15:20:50Z" finished-at="2018-04-18T15:20:51Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="488" started-at="2018-04-18T15:20:51Z" finished-at="2018-04-18T15:20:52Z">
+        </test-method>
+      </class>
+      <class name="com.trc.qa.testcases.PPArchivedPatientsListTest">
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="23226" started-at="2018-04-18T15:18:46Z" finished-at="2018-04-18T15:19:09Z">
+        </test-method>
+        <test-method status="PASS" signature="searchWaitingListPatient()" name="searchWaitingListPatient" duration-ms="2033" started-at="2018-04-18T15:19:09Z" finished-at="2018-04-18T15:19:11Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="979" started-at="2018-04-18T15:19:11Z" finished-at="2018-04-18T15:19:12Z">
+        </test-method>
+      </class>
+      <class name="com.trc.qa.testcases.PPhysicainPatientTest">
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="21222" started-at="2018-04-18T15:21:18Z" finished-at="2018-04-18T15:21:39Z">
+        </test-method>
+        <test-method status="PASS" signature="createnewPatient(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)" name="createnewPatient" duration-ms="47863" started-at="2018-04-18T15:21:39Z" finished-at="2018-04-18T15:22:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[James]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[smith]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[22.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[jim@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9.87654321E8]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[116 street]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[117 Street]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Dalla]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[75201.0]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[UNITED STATES]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[ALASKA]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[The Reversal Clinic, Oklahoma]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[David  Wilson]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="537" started-at="2018-04-18T15:22:27Z" finished-at="2018-04-18T15:22:27Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="21170" started-at="2018-04-18T15:23:26Z" finished-at="2018-04-18T15:23:47Z">
+        </test-method>
+        <test-method status="PASS" signature="textCheck()" name="textCheck" duration-ms="1624" started-at="2018-04-18T15:23:47Z" finished-at="2018-04-18T15:23:49Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="446" started-at="2018-04-18T15:23:49Z" finished-at="2018-04-18T15:23:49Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="21689" started-at="2018-04-18T15:25:25Z" finished-at="2018-04-18T15:25:47Z">
+        </test-method>
+        <test-method status="PASS" signature="Downloadpdf()" name="Downloadpdf" duration-ms="10067" started-at="2018-04-18T15:25:47Z" finished-at="2018-04-18T15:25:57Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="598" started-at="2018-04-18T15:25:57Z" finished-at="2018-04-18T15:25:57Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="21294" started-at="2018-04-18T15:26:23Z" finished-at="2018-04-18T15:26:45Z">
+        </test-method>
+        <test-method status="PASS" signature="searchpatient(java.lang.String, java.lang.String)" name="searchpatient" duration-ms="2206" started-at="2018-04-18T15:26:45Z" finished-at="2018-04-18T15:26:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[01-Sep-2018]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[03-Jun-2018]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="604" started-at="2018-04-18T15:26:47Z" finished-at="2018-04-18T15:26:47Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="21352" started-at="2018-04-18T15:27:13Z" finished-at="2018-04-18T15:27:34Z">
+        </test-method>
+        <test-method status="PASS" signature="searchpatientwithemail()" name="searchpatientwithemail" duration-ms="5372" started-at="2018-04-18T15:27:34Z" finished-at="2018-04-18T15:27:40Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="533" started-at="2018-04-18T15:27:40Z" finished-at="2018-04-18T15:27:40Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="20991" started-at="2018-04-18T15:28:06Z" finished-at="2018-04-18T15:28:27Z">
+        </test-method>
+        <test-method status="PASS" signature="searchpatientwithname()" name="searchpatientwithname" duration-ms="5401" started-at="2018-04-18T15:28:27Z" finished-at="2018-04-18T15:28:32Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="493" started-at="2018-04-18T15:28:32Z" finished-at="2018-04-18T15:28:33Z">
+        </test-method>
+      </class>
+      <class name="com.trc.qa.testcases.PPReferralPatientsTest">
+        <test-method status="PASS" signature="Setup()" name="Setup" is-config="true" duration-ms="20168" started-at="2018-04-18T15:20:06Z" finished-at="2018-04-18T15:20:26Z">
+        </test-method>
+        <test-method status="PASS" signature="search()" name="search" duration-ms="2093" started-at="2018-04-18T15:20:26Z" finished-at="2018-04-18T15:20:28Z">
+        </test-method>
+        <test-method status="PASS" signature="teardown()" name="teardown" is-config="true" duration-ms="383" started-at="2018-04-18T15:20:28Z" finished-at="2018-04-18T15:20:29Z">
+        </test-method>
+        <test-method status="PASS" signature="Setup()" name="Setup" is-config="true" duration-ms="20591" started-at="2018-04-18T15:22:55Z" finished-at="2018-04-18T15:23:16Z">
+        </test-method>
+        <test-method status="PASS" signature="downloadpdf()" name="downloadpdf" duration-ms="10069" started-at="2018-04-18T15:23:16Z" finished-at="2018-04-18T15:23:26Z">
+        </test-method>
+        <test-method status="PASS" signature="teardown()" name="teardown" is-config="true" duration-ms="427" started-at="2018-04-18T15:23:26Z" finished-at="2018-04-18T15:23:26Z">
+        </test-method>
+        <test-method status="PASS" signature="Setup()" name="Setup" is-config="true" duration-ms="24184" started-at="2018-04-18T15:24:42Z" finished-at="2018-04-18T15:25:06Z">
+        </test-method>
+        <test-method status="PASS" signature="selectBootstrapdropdown()" name="selectBootstrapdropdown" duration-ms="18372" started-at="2018-04-18T15:25:06Z" finished-at="2018-04-18T15:25:24Z">
+        </test-method>
+        <test-method status="PASS" signature="teardown()" name="teardown" is-config="true" duration-ms="369" started-at="2018-04-18T15:25:24Z" finished-at="2018-04-18T15:25:25Z">
+        </test-method>
+      </class>
+      <class name="com.trc.qa.testcases.PPPhysicianMyavailabiltyTest">
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="20856" started-at="2018-04-18T15:19:40Z" finished-at="2018-04-18T15:20:01Z">
+        </test-method>
+        <test-method status="PASS" signature="AvaliablityAdd()" name="AvaliablityAdd" duration-ms="4731" started-at="2018-04-18T15:20:01Z" finished-at="2018-04-18T15:20:06Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="379" started-at="2018-04-18T15:20:06Z" finished-at="2018-04-18T15:20:06Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="21007" started-at="2018-04-18T15:23:49Z" finished-at="2018-04-18T15:24:10Z">
+        </test-method>
+        <test-method status="PASS" signature="delete()" name="delete" duration-ms="4655" started-at="2018-04-18T15:24:10Z" finished-at="2018-04-18T15:24:15Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="449" started-at="2018-04-18T15:24:15Z" finished-at="2018-04-18T15:24:15Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="21235" started-at="2018-04-18T15:24:15Z" finished-at="2018-04-18T15:24:37Z">
+        </test-method>
+        <test-method status="PASS" signature="deleten()" name="deleten" duration-ms="4926" started-at="2018-04-18T15:24:37Z" finished-at="2018-04-18T15:24:42Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="397" started-at="2018-04-18T15:24:42Z" finished-at="2018-04-18T15:24:42Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="21333" started-at="2018-04-18T15:25:57Z" finished-at="2018-04-18T15:26:19Z">
+        </test-method>
+        <test-method status="PASS" signature="delete1()" name="delete1" duration-ms="4360" started-at="2018-04-18T15:26:19Z" finished-at="2018-04-18T15:26:23Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="362" started-at="2018-04-18T15:26:23Z" finished-at="2018-04-18T15:26:23Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="20530" started-at="2018-04-18T15:26:47Z" finished-at="2018-04-18T15:27:08Z">
+        </test-method>
+        <test-method status="PASS" signature="delete2()" name="delete2" duration-ms="4454" started-at="2018-04-18T15:27:08Z" finished-at="2018-04-18T15:27:12Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="326" started-at="2018-04-18T15:27:12Z" finished-at="2018-04-18T15:27:13Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="21146" started-at="2018-04-18T15:27:40Z" finished-at="2018-04-18T15:28:01Z">
+        </test-method>
+        <test-method status="PASS" signature="delete3()" name="delete3" duration-ms="4534" started-at="2018-04-18T15:28:01Z" finished-at="2018-04-18T15:28:06Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="325" started-at="2018-04-18T15:28:06Z" finished-at="2018-04-18T15:28:06Z">
+        </test-method>
+      </class>
+      <class name="com.trc.qa.testcases.PPMyProfileTest">
+        <test-method status="PASS" signature="Setup()" name="Setup" is-config="true" duration-ms="21534" started-at="2018-04-18T15:19:12Z" finished-at="2018-04-18T15:19:34Z">
+        </test-method>
+        <test-method status="PASS" signature="Changeprofilepage()" name="Changeprofilepage" duration-ms="5887" started-at="2018-04-18T15:19:34Z" finished-at="2018-04-18T15:19:40Z">
+        </test-method>
+        <test-method status="PASS" signature="teardown()" name="teardown" is-config="true" duration-ms="336" started-at="2018-04-18T15:19:40Z" finished-at="2018-04-18T15:19:40Z">
+        </test-method>
+        <test-method status="PASS" signature="Setup()" name="Setup" is-config="true" duration-ms="21636" started-at="2018-04-18T15:22:27Z" finished-at="2018-04-18T15:22:49Z">
+        </test-method>
+        <test-method status="PASS" signature="Editprofilepage()" name="Editprofilepage" duration-ms="5795" started-at="2018-04-18T15:22:49Z" finished-at="2018-04-18T15:22:55Z">
+        </test-method>
+        <test-method status="PASS" signature="teardown()" name="teardown" is-config="true" duration-ms="327" started-at="2018-04-18T15:22:55Z" finished-at="2018-04-18T15:22:55Z">
+        </test-method>
+      </class>
+      <class name="com.trc.qa.testcases.PPWaitingListPatientTest">
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="20427" started-at="2018-04-18T15:20:52Z" finished-at="2018-04-18T15:21:12Z">
+        </test-method>
+        <test-method status="PASS" signature="searchWaitingListPatient()" name="searchWaitingListPatient" duration-ms="4079" started-at="2018-04-18T15:21:12Z" finished-at="2018-04-18T15:21:16Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="380" started-at="2018-04-18T15:21:16Z" finished-at="2018-04-18T15:21:17Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

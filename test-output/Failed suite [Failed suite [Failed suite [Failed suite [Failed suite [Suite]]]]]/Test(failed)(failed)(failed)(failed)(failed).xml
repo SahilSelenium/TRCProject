@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="AEZIONDEV10" name="com.trc.qa.testcases.UpcomingPatientTest" tests="1" failures="0" timestamp="4 Apr 2018 04:59:10 GMT" time="13.563" errors="0">
+  <testcase name="@BeforeMethod setUp" time="0.0" classname="com.trc.qa.testcases.UpcomingPatientTest">
+    <failure type="org.openqa.selenium.WebDriverException" message="Failed to decode response from marionette
+Build info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:01:39.354Z&amp;apos;
+System info: host: &amp;apos;AEZIONDEV10&amp;apos;, ip: &amp;apos;192.168.30.83&amp;apos;, os.name: &amp;apos;Windows 8.1&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.3&amp;apos;, java.version: &amp;apos;1.8.0_121&amp;apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 60820, moz:profile: C:\Users\Aezion.Dev10\AppDa..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: eb1f5a3c-a3c4-4fdf-9e60-061db2c55f75">
+      <![CDATA[org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'AEZIONDEV10', ip: '192.168.30.83', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 60820, moz:profile: C:\Users\Aezion.Dev10\AppDa..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: eb1f5a3c-a3c4-4fdf-9e60-061db2c55f75
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:324)
+	at com.trc.qa.base.TestBase.intialization(TestBase.java:84)
+	at com.trc.qa.testcases.UpcomingPatientTest.setUp(UpcomingPatientTest.java:35)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="@AfterMethod tearDown" time="0.0" classname="com.trc.qa.testcases.UpcomingPatientTest">
+    <skipped/>
+  </testcase>
+  <testcase name="UpcomingPatient" time="0.0" classname="com.trc.qa.testcases.UpcomingPatientTest">
+    <skipped/>
+  </testcase>
+</testsuite>

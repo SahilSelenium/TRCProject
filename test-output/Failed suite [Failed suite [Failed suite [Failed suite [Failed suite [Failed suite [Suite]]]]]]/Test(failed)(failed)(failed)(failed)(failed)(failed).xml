@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="AEZIONDEV10" name="com.trc.qa.testcases.UpcomingPatientTest" tests="1" failures="1" timestamp="4 Apr 2018 05:00:08 GMT" time="26.696" errors="0">
+  <testcase name="UpcomingPatient" time="1.643" classname="com.trc.qa.testcases.UpcomingPatientTest">
+    <failure type="junit.framework.AssertionFailedError">
+      <![CDATA[junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at com.trc.qa.pages.UpcomingPatientsPage.upcomingpatient(UpcomingPatientsPage.java:39)
+	at com.trc.qa.testcases.UpcomingPatientTest.UpcomingPatient(UpcomingPatientTest.java:58)
+... Removed 25 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

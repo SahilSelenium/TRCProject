@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]">
+  <test name="Test(failed)(failed)" preserve-order="false">
+    <classes>
+      <class name="com.trc.qa.testcases.PhysicianPagetest">
+        <methods>
+          <include name="Setup"/>
+          <include name="addnewphysicianvalidations" invocation-numbers="0"/>
+          <include name="addnewphysician" invocation-numbers="0"/>
+        </methods>
+      </class>
+      <class name="com.trc.qa.testcases.PPReferralPatientsTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="selectBootstrapdropdown"/>
+          <include name="teardown"/>
+        </methods>
+      </class>
+      <class name="com.trc.qa.testcases.PPhysicainPatientTest">
+        <methods>
+          <include name="createnewPatient" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

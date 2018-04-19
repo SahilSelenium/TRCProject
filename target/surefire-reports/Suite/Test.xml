@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="AEZIONDEV10" name="com.trc.qa.testcases.PPArchivedPatientsListTest" tests="20" failures="0" timestamp="18 Apr 2018 09:58:33 GMT" time="586.757" errors="0">
+  <testcase name="searchWaitingListPatient" time="2.033" classname="com.trc.qa.testcases.PPArchivedPatientsListTest"/>
+  <testcase name="Changeprofilepage" time="5.887" classname="com.trc.qa.testcases.PPMyProfileTest"/>
+  <testcase name="AvaliablityAdd" time="4.731" classname="com.trc.qa.testcases.PPPhysicianMyavailabiltyTest"/>
+  <testcase name="search" time="2.093" classname="com.trc.qa.testcases.PPReferralPatientsTest"/>
+  <testcase name="UpcomingPatient" time="1.603" classname="com.trc.qa.testcases.PPUpcomingPatientTest"/>
+  <testcase name="searchWaitingListPatient" time="4.079" classname="com.trc.qa.testcases.PPWaitingListPatientTest"/>
+  <testcase name="createnewPatient" time="47.863" classname="com.trc.qa.testcases.PPhysicainPatientTest"/>
+  <testcase name="Editprofilepage" time="5.795" classname="com.trc.qa.testcases.PPMyProfileTest"/>
+  <testcase name="downloadpdf" time="10.069" classname="com.trc.qa.testcases.PPReferralPatientsTest"/>
+  <testcase name="textCheck" time="1.624" classname="com.trc.qa.testcases.PPhysicainPatientTest"/>
+  <testcase name="delete" time="4.655" classname="com.trc.qa.testcases.PPPhysicianMyavailabiltyTest"/>
+  <testcase name="deleten" time="4.926" classname="com.trc.qa.testcases.PPPhysicianMyavailabiltyTest"/>
+  <testcase name="selectBootstrapdropdown" time="18.372" classname="com.trc.qa.testcases.PPReferralPatientsTest"/>
+  <testcase name="Downloadpdf" time="10.067" classname="com.trc.qa.testcases.PPhysicainPatientTest"/>
+  <testcase name="delete1" time="4.36" classname="com.trc.qa.testcases.PPPhysicianMyavailabiltyTest"/>
+  <testcase name="searchpatient" time="2.206" classname="com.trc.qa.testcases.PPhysicainPatientTest"/>
+  <testcase name="delete2" time="4.454" classname="com.trc.qa.testcases.PPPhysicianMyavailabiltyTest"/>
+  <testcase name="searchpatientwithemail" time="5.372" classname="com.trc.qa.testcases.PPhysicainPatientTest"/>
+  <testcase name="delete3" time="4.534" classname="com.trc.qa.testcases.PPPhysicianMyavailabiltyTest"/>
+  <testcase name="searchpatientwithname" time="5.401" classname="com.trc.qa.testcases.PPhysicainPatientTest"/>
+</testsuite>

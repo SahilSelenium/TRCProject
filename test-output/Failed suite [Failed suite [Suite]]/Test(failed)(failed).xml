@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="AEZIONDEV10" name="com.trc.qa.testcases.ClinicPageTest" tests="6" failures="5" timestamp="5 Apr 2018 06:59:14 GMT" time="167.547" errors="0">
+  <testcase name="ClinicPage" time="3.322" classname="com.trc.qa.testcases.ClinicPageTest">
+    <failure type="org.openqa.selenium.ElementClickInterceptedException" message="Element &amp;lt;input id=&amp;quot;Name&amp;quot; class=&amp;quot;k-input k-textbox&amp;quot; name=&amp;quot;Name&amp;quot; type=&amp;quot;text&amp;quot;&amp;gt; is not clickable at point (482,192.69166564941406) because another element &amp;lt;input id=&amp;quot;Name&amp;quot; class=&amp;quot;k-input k-textbox&amp;quot; name=&amp;quot;Name&amp;quot; type=&amp;quot;text&amp;quot;&amp;gt; obscures it
+Build info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:01:39.354Z&amp;apos;
+System info: host: &amp;apos;AEZIONDEV10&amp;apos;, ip: &amp;apos;192.168.30.83&amp;apos;, os.name: &amp;apos;Windows 8.1&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.3&amp;apos;, java.version: &amp;apos;1.8.0_121&amp;apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 38472, moz:profile: C:\Users\Aezion.Dev10\AppDa..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c160602a-c0d2-490a-8d42-9cd16deea3c7">
+      <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <input id="Name" class="k-input k-textbox" name="Name" type="text"> is not clickable at point (482,192.69166564941406) because another element <input id="Name" class="k-input k-textbox" name="Name" type="text"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'AEZIONDEV10', ip: '192.168.30.83', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 38472, moz:profile: C:\Users\Aezion.Dev10\AppDa..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c160602a-c0d2-490a-8d42-9cd16deea3c7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.trc.qa.util.TestUtil.waitforElementPresent(TestUtil.java:154)
+	at com.trc.qa.pages.ClinincPgae.CreateNewClinic(ClinincPgae.java:73)
+	at com.trc.qa.testcases.ClinicPageTest.ClinicPage(ClinicPageTest.java:64)
+	at Runner.RunFailedTestCase.main(RunFailedTestCase.java:30)
+... Removed 55 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="EditStaticpage" time="3.123" classname="com.trc.qa.testcases.StaticPageTest">
+    <failure type="org.openqa.selenium.ElementClickInterceptedException" message="Element &amp;lt;span class=&amp;quot;k-input&amp;quot;&amp;gt; is not clickable at point (477.1999969482422,120) because another element &amp;lt;input id=&amp;quot;PageName&amp;quot; name=&amp;quot;PageName&amp;quot; type=&amp;quot;text&amp;quot;&amp;gt; obscures it
+Build info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:01:39.354Z&amp;apos;
+System info: host: &amp;apos;AEZIONDEV10&amp;apos;, ip: &amp;apos;192.168.30.83&amp;apos;, os.name: &amp;apos;Windows 8.1&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.3&amp;apos;, java.version: &amp;apos;1.8.0_121&amp;apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 28596, moz:profile: C:\Users\Aezion.Dev10\AppDa..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 1f3fa7d2-795d-46d9-91e8-45f342af00aa">
+      <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <span class="k-input"> is not clickable at point (477.1999969482422,120) because another element <input id="PageName" name="PageName" type="text"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'AEZIONDEV10', ip: '192.168.30.83', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 28596, moz:profile: C:\Users\Aezion.Dev10\AppDa..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 1f3fa7d2-795d-46d9-91e8-45f342af00aa
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.trc.qa.pages.StaticPage.StaticPageEdit(StaticPage.java:45)
+	at com.trc.qa.testcases.StaticPageTest.EditStaticpage(StaticPageTest.java:54)
+	at Runner.RunFailedTestCase.main(RunFailedTestCase.java:30)
+... Removed 51 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="Clinicdelete" time="1.543" classname="com.trc.qa.testcases.ClinicPageTest">
+    <failure type="org.openqa.selenium.UnhandledAlertException" message=": 
+Build info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:01:39.354Z&amp;apos;
+System info: host: &amp;apos;AEZIONDEV10&amp;apos;, ip: &amp;apos;192.168.30.83&amp;apos;, os.name: &amp;apos;Windows 8.1&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.3&amp;apos;, java.version: &amp;apos;1.8.0_121&amp;apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 11020, moz:profile: C:\Users\Aezion.Dev10\AppDa..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 6e8fcd4b-5653-4257-838b-48f4d49c4ff4
+*** Element info: {Using=link text, value=Delete}">
+      <![CDATA[org.openqa.selenium.UnhandledAlertException: : 
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'AEZIONDEV10', ip: '192.168.30.83', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 11020, moz:profile: C:\Users\Aezion.Dev10\AppDa..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 6e8fcd4b-5653-4257-838b-48f4d49c4ff4
+*** Element info: {Using=link text, value=Delete}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.trc.qa.pages.ClinincPgae.CreateNewClinicDelete(ClinincPgae.java:186)
+	at com.trc.qa.testcases.ClinicPageTest.Clinicdelete(ClinicPageTest.java:95)
+	at Runner.RunFailedTestCase.main(RunFailedTestCase.java:30)
+... Removed 47 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="selectBootstrapdropdown" time="18.405" classname="com.trc.qa.testcases.ReferralPatientsTest">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="Unable to locate element: //*[text()=&amp;apos;Tim&amp;apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:01:39.354Z&amp;apos;
+System info: host: &amp;apos;AEZIONDEV10&amp;apos;, ip: &amp;apos;192.168.30.83&amp;apos;, os.name: &amp;apos;Windows 8.1&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.3&amp;apos;, java.version: &amp;apos;1.8.0_121&amp;apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 39888, moz:profile: C:\Users\Aezion.Dev10\AppDa..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 02b8d37b-eaec-4b9f-a952-38002eed8117
+*** Element info: {Using=xpath, value=//*[text()=&amp;apos;Tim&amp;apos;]}">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[text()='Tim']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'AEZIONDEV10', ip: '192.168.30.83', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 39888, moz:profile: C:\Users\Aezion.Dev10\AppDa..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 02b8d37b-eaec-4b9f-a952-38002eed8117
+*** Element info: {Using=xpath, value=//*[text()='Tim']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at com.trc.qa.pages.ReferralPatientsPage.selectBootstrapdropdown(ReferralPatientsPage.java:87)
+	at com.trc.qa.testcases.ReferralPatientsTest.selectBootstrapdropdown(ReferralPatientsTest.java:58)
+	at Runner.RunFailedTestCase.main(RunFailedTestCase.java:30)
+... Removed 51 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="delete" time="4.785" classname="com.trc.qa.testcases.SystemEmailTemplateTest">
+    <failure type="org.openqa.selenium.UnhandledAlertException" message=": 
+Build info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:01:39.354Z&amp;apos;
+System info: host: &amp;apos;AEZIONDEV10&amp;apos;, ip: &amp;apos;192.168.30.83&amp;apos;, os.name: &amp;apos;Windows 8.1&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.3&amp;apos;, java.version: &amp;apos;1.8.0_121&amp;apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6276, moz:profile: C:\Users\Aezion.Dev10\AppDa..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7a6ba1d4-4910-40d0-b3ae-50a0357d265a
+*** Element info: {Using=xpath, value=//tr[1]/td[5]/a[2]}">
+      <![CDATA[org.openqa.selenium.UnhandledAlertException: : 
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'AEZIONDEV10', ip: '192.168.30.83', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6276, moz:profile: C:\Users\Aezion.Dev10\AppDa..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7a6ba1d4-4910-40d0-b3ae-50a0357d265a
+*** Element info: {Using=xpath, value=//tr[1]/td[5]/a[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.trc.qa.pages.SystemEmailTemplatePage.Templatedelete(SystemEmailTemplatePage.java:116)
+	at com.trc.qa.testcases.SystemEmailTemplateTest.delete(SystemEmailTemplateTest.java:81)
+	at Runner.RunFailedTestCase.main(RunFailedTestCase.java:30)
+... Removed 47 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="homepagelink" time="4.87" classname="com.trc.qa.testcases.ContactandTravelTest"/>
+</testsuite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        
+        <listener  class-name ="com.qa.ExtentReportListener.ExtentReporterListener"/>
+        
+    </listeners>
+    
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.trc.qa.testcases.CWaitingListPatientTest"/>
+      <class name="com.trc.qa.testcases.CUpcomingPatientTest"/>
+      <class name="com.trc.qa.testcases.CPatienTest"/>
+      <class name="com.trc.qa.testcases.CArchivedPatientsListTest"/>
+      <class name="com.trc.qa.testcases.CPhysicianPageTest"/>
+      <class name="com.trc.qa.testcases.CReferralPatientsTest"/>
+      <class name="com.trc.qa.testcases.CLeadsPageTest"/>
+      <class name="com.trc.qa.testcases.MyProfileTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

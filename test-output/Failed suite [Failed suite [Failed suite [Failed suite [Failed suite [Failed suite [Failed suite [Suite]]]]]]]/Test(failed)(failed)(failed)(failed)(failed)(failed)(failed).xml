@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="AEZIONDEV10" name="com.trc.qa.testcases.UpcomingPatientTest" tests="1" failures="0" timestamp="4 Apr 2018 05:02:15 GMT" time="27.555" errors="0">
+  <testcase name="UpcomingPatient" time="2.03" classname="com.trc.qa.testcases.UpcomingPatientTest"/>
+</testsuite>

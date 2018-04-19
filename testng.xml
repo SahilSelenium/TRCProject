@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    
+    <listeners>
+        
+        <listener  class-name ="com.qa.ExtentReportListener.ExtentReporterListener"/>
+        
+    </listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.trc.qa.testcases.LoginPageTest"/>
+      <class name="com.trc.qa.testcases.ManageUsersTest"/>
+      <class name="com.trc.qa.testcases.WaitingListPatientTest"/>
+      <class name="com.trc.qa.testcases.AppointmentTypesTest"/>
+      <class name="com.trc.qa.testcases.SystemEmailTemplateTest"/>
+      <class name="com.trc.qa.testcases.CampaignStagesTest"/>
+      <class name="com.trc.qa.testcases.BlogCategoriesTest"/>
+      <class name="com.trc.qa.testcases.LeadsPageTest"/>
+      <class name="com.trc.qa.testcases.HomePageTest"/>
+      <class name="com.trc.qa.testcases.MyProfileTest"/>
+      <class name="com.trc.qa.testcases.PhysicianPagetest"/>
+      <class name="com.trc.qa.testcases.DripCampaignsTest"/>
+      <class name="com.trc.qa.testcases.LandinghomeTest"/>
+      <class name="com.trc.qa.testcases.SystemEmailTemplateTypesTest"/>
+      <class name="com.trc.qa.testcases.ContactandTravelTest"/>
+      <class name="com.trc.qa.testcases.PatientsPageTest"/>
+      <class name="com.trc.qa.testcases.ReferralPatientsTest"/>
+      <class name="com.trc.qa.testcases.LandingFAQTest"/>
+      <class name="com.trc.qa.testcases.PatientEmailTemplateTest"/>
+      <class name="com.trc.qa.testcases.BabyGalleryTest"/>
+      <class name="com.trc.qa.testcases.StaticPageTest"/>
+      <class name="com.trc.qa.testcases.ClinicPageTest"/>
+      <class name="com.trc.qa.testcases.CampaignHistoryTest"/>
+      <class name="com.trc.qa.testcases.LandingDrwilsonpage"/>
+      <class name="com.trc.qa.testcases.LandingSucessStoryTest"/>
+      <class name="com.trc.qa.testcases.OverridenPatientTest"/>
+      <class name="com.trc.qa.testcases.UpcomingPatientTest"/>
+      <class name="com.trc.qa.testcases.ArchivedPatientsListTest"/>
+      <class name="com.trc.qa.testcases.ProcedureLandingTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

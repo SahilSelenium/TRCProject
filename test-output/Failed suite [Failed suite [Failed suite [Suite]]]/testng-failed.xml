@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Failed suite [Failed suite [Suite]]]]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterListener"/>
+  </listeners>
+  <test name="Test(failed)(failed)(failed)(failed)" preserve-order="false">
+    <classes>
+      <class name="com.trc.qa.testcases.ClinicPageTest">
+        <methods>
+          <include name="ClinicPage" invocation-numbers="0"/>
+          <include name="Clinicdelete"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class>
+      <class name="com.trc.qa.testcases.ReferralPatientsTest">
+        <methods>
+          <include name="Setup"/>
+          <include name="selectBootstrapdropdown"/>
+          <include name="teardown"/>
+        </methods>
+      </class>
+      <class name="com.trc.qa.testcases.StaticPageTest">
+        <methods>
+          <include name="EditStaticpage"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class>
+      <class name="com.trc.qa.testcases.SystemEmailTemplateTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="Setup"/>
+          <include name="delete"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

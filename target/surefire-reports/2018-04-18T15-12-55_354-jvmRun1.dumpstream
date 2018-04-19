@@ -1,0 +1,173 @@
+# Created on 2018-04-18T15:14:27.393
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Unknown Source)
+
+
+# Created on 2018-04-18T15:14:28.006
+Unexpected IOException with stream: 04-18-2018 15:14:28 RequestAuthCache.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
+
+
+# Created on 2018-04-18T15:14:28.020
+Unexpected IOException with stream: 04-18-2018 15:14:28 PoolingHttpClientConnectionManager.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}->http://localhost:30681][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+
+
+# Created on 2018-04-18T15:14:28.027
+Unexpected IOException with stream: 04-18-2018 15:14:28 PoolingHttpClientConnectionManager.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 67][route: {}->http://localhost:30681][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+
+
+# Created on 2018-04-18T15:14:28.034
+Unexpected IOException with stream: 04-18-2018 15:14:28 MainClientExec.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] execchain.MainClientExec 235 - Opening connection {}->http://localhost:30681
+
+
+# Created on 2018-04-18T15:14:28.043
+Unexpected IOException with stream: 04-18-2018 15:14:28 DefaultHttpClientConnectionOperator.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] conn.DefaultHttpClientConnectionOperator 139 - Connecting to localhost/127.0.0.1:30681
+
+
+# Created on 2018-04-18T15:14:28.051
+Unexpected IOException with stream: 04-18-2018 15:14:28 DefaultHttpClientConnectionOperator.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] conn.DefaultHttpClientConnectionOperator 146 - Connection established 127.0.0.1:51791<->127.0.0.1:30681
+
+
+# Created on 2018-04-18T15:14:28.057
+Unexpected IOException with stream: 04-18-2018 15:14:28 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-67: set socket timeout to 10800000
+
+
+# Created on 2018-04-18T15:14:28.064
+Unexpected IOException with stream: 04-18-2018 15:14:28 MainClientExec.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] execchain.MainClientExec 256 - Executing request DELETE /session/e70c218d-7cf3-4e37-86d1-f369b543b7b2/cookie HTTP/1.1
+
+
+# Created on 2018-04-18T15:14:28.076
+Unexpected IOException with stream: 04-18-2018 15:14:28 MainClientExec.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
+
+
+# Created on 2018-04-18T15:14:28.083
+Unexpected IOException with stream: 04-18-2018 15:14:28 MainClientExec.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
+
+
+# Created on 2018-04-18T15:14:28.088
+Unexpected IOException with stream: 04-18-2018 15:14:28 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] http.headers 133 - http-outgoing-67 >> DELETE /session/e70c218d-7cf3-4e37-86d1-f369b543b7b2/cookie HTTP/1.1
+
+
+# Created on 2018-04-18T15:14:28.093
+Unexpected IOException with stream: 04-18-2018 15:14:28 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] http.headers 136 - http-outgoing-67 >> Host: localhost:30681
+
+
+# Created on 2018-04-18T15:14:28.098
+Unexpected IOException with stream: 04-18-2018 15:14:28 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] http.headers 136 - http-outgoing-67 >> Connection: Keep-Alive
+
+
+# Created on 2018-04-18T15:14:28.105
+Unexpected IOException with stream: 04-18-2018 15:14:28 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] http.headers 136 - http-outgoing-67 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+
+
+# Created on 2018-04-18T15:14:28.109
+Unexpected IOException with stream: 04-18-2018 15:14:28 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] http.headers 136 - http-outgoing-67 >> Accept-Encoding: gzip,deflate
+
+
+# Created on 2018-04-18T15:14:28.115
+Unexpected IOException with stream: 04-18-2018 15:14:28 Wire.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] http.wire 73 - http-outgoing-67 >> "DELETE /session/e70c218d-7cf3-4e37-86d1-f369b543b7b2/cookie HTTP/1.1[\r][\n]"
+
+
+# Created on 2018-04-18T15:14:28.120
+Unexpected IOException with stream: 04-18-2018 15:14:28 Wire.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] http.wire 73 - http-outgoing-67 >> "Host: localhost:30681[\r][\n]"
+
+
+# Created on 2018-04-18T15:14:28.125
+Unexpected IOException with stream: 04-18-2018 15:14:28 Wire.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] http.wire 73 - http-outgoing-67 >> "Connection: Keep-Alive[\r][\n]"
+
+
+# Created on 2018-04-18T15:14:28.130
+Unexpected IOException with stream: 04-18-2018 15:14:28 Wire.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] http.wire 73 - http-outgoing-67 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)[\r][\n]"
+
+
+# Created on 2018-04-18T15:14:28.136
+Unexpected IOException with stream: 04-18-2018 15:14:28 Wire.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] http.wire 73 - http-outgoing-67 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+
+
+# Created on 2018-04-18T15:14:28.141
+Unexpected IOException with stream: 04-18-2018 15:14:28 Wire.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] http.wire 73 - http-outgoing-67 >> "[\r][\n]"
+
+
+# Created on 2018-04-18T15:14:28.148
+Unexpected IOException with stream: 04-18-2018 15:14:28 Wire.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] http.wire 73 - http-outgoing-67 << "HTTP/1.1 200 OK[\r][\n]"
+
+
+# Created on 2018-04-18T15:14:28.153
+Unexpected IOException with stream: 04-18-2018 15:14:28 Wire.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] http.wire 73 - http-outgoing-67 << "Connection: close[\r][\n]"
+
+
+# Created on 2018-04-18T15:14:28.159
+Unexpected IOException with stream: 04-18-2018 15:14:28 Wire.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] http.wire 73 - http-outgoing-67 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+
+
+# Created on 2018-04-18T15:14:28.164
+Unexpected IOException with stream: 04-18-2018 15:14:28 Wire.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] http.wire 73 - http-outgoing-67 << "Cache-Control: no-cache[\r][\n]"
+
+
+# Created on 2018-04-18T15:14:28.170
+Unexpected IOException with stream: 04-18-2018 15:14:28 Wire.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] http.wire 73 - http-outgoing-67 << "Content-Length: 13[\r][\n]"
+
+
+# Created on 2018-04-18T15:14:28.176
+Unexpected IOException with stream: 04-18-2018 15:14:28 Wire.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] http.wire 73 - http-outgoing-67 << "Date: Wed, 18 Apr 2018 09:44:28 GMT[\r][\n]"
+
+
+# Created on 2018-04-18T15:14:28.182
+Unexpected IOException with stream: 04-18-2018 15:14:28 Wire.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] http.wire 73 - http-outgoing-67 << "[\r][\n]"
+
+
+# Created on 2018-04-18T15:14:28.188
+Unexpected IOException with stream: 04-18-2018 15:14:28 Wire.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] http.wire 87 - http-outgoing-67 << "{"value": {}}"
+
+
+# Created on 2018-04-18T15:14:28.194
+Unexpected IOException with stream: 04-18-2018 15:14:28 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] http.headers 122 - http-outgoing-67 << HTTP/1.1 200 OK
+
+
+# Created on 2018-04-18T15:14:28.200
+Unexpected IOException with stream: 04-18-2018 15:14:28 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] http.headers 125 - http-outgoing-67 << Connection: close
+
+
+# Created on 2018-04-18T15:14:28.208
+Unexpected IOException with stream: 04-18-2018 15:14:28 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] http.headers 125 - http-outgoing-67 << Content-Type: application/json; charset=utf-8
+
+
+# Created on 2018-04-18T15:14:28.216
+Unexpected IOException with stream: 04-18-2018 15:14:28 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] http.headers 125 - http-outgoing-67 << Cache-Control: no-cache
+
+
+# Created on 2018-04-18T15:14:28.223
+Unexpected IOException with stream: 04-18-2018 15:14:28 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] http.headers 125 - http-outgoing-67 << Content-Length: 13
+
+
+# Created on 2018-04-18T15:14:28.228
+Unexpected IOException with stream: 04-18-2018 15:14:28 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] http.headers 125 - http-outgoing-67 << Date: Wed, 18 Apr 2018 09:44:28 GMT
+
+
+# Created on 2018-04-18T15:14:28.233
+Unexpected IOException with stream: 04-18-2018 15:14:28 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] conn.DefaultManagedHttpClientConnection 79 - http-outgoing-67: Close connection
+
+
+# Created on 2018-04-18T15:14:28.243
+Unexpected IOException with stream: 04-18-2018 15:14:28 ConnectionHolder.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] execchain.MainClientExec 104 - Connection discarded
+
+
+# Created on 2018-04-18T15:14:28.255
+Unexpected IOException with stream: 04-18-2018 15:14:28 PoolingHttpClientConnectionManager.java DEBUG [Forwarding deleteAllCookies on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 67][route: {}->http://localhost:30681][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+
+
+# Created on 2018-04-18T15:14:28.263
+Unexpected IOException with stream: 04-18-2018 15:14:28 RequestAddCookies.java DEBUG [Forwarding setTimeout on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
+
+
+# Created on 2018-04-18T15:14:28.269
+Unexpected IOException with stream: 04-18-2018 15:14:28 RequestAuthCache.java DEBUG [Forwarding setTimeout on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
+
+
+# Created on 2018-04-18T15:14:28.276
+Unexpected IOException with stream: 04-18-2018 15:14:28 PoolingHttpClientConnectionManager.java DEBUG [Forwarding setTimeout on session e70c218d-7cf3-4e37-86d1-f369b543b7b2 to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}->http://localhost:30681][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+
+
